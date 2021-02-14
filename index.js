@@ -1,3 +1,3 @@
-const Questions = require('./lib/Questions');
+const TeamBuilder = require('./lib/TeamBuilder');
 
-new Questions().initializeQuestions();
+new TeamBuilder().initializeTeamBuilder();

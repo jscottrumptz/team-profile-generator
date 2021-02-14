@@ -28,12 +28,6 @@ test("returns manager's email", () => {
     expect(manager.getEmail()).toEqual(expect.stringContaining('jscott@d-verse.com'));
 });
 
-test("returns manager's role", () => {
-    const manager = new Manager('Scott', '123', 'jscott@d-verse.com', '210');
-    
-    expect(manager.getRole()).toEqual(expect.stringContaining('Manager'));
-});
-
 test("returns manager's office number", () => {
     const manager = new Manager('Scott', '123', 'jscott@d-verse.com', '210');
     
